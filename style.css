@@ -111,6 +111,7 @@ margin-bottom: 10rem;
     font-size: 73px;
     color: antiquewhite;
 }
+<<<<<<< HEAD
 .call{
     width: 85px;
     height: 85px;
@@ -133,6 +134,8 @@ margin-bottom: 10rem;
     position: relative;
     top: 8rem;
 }
+=======
+>>>>>>> c7e34108f706fd64a05e9b6c116400690e73d75d
 .card-wrapper{
     height: auto;
 }
@@ -281,6 +284,7 @@ background: #232F3D;
         margin: 25px 0 0 20px;
     }
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 576px){
     .loader_txt{
         width: 80%;
@@ -303,3 +307,8 @@ background: #232F3D;
         margin: 25px 0 0 12px;
     }
 }
+=======
+@media only screen and (max-width:576px){
+
+}
+>>>>>>> c7e34108f706fd64a05e9b6c116400690e73d75d
