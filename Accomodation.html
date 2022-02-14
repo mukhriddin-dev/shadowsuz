@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Accomodation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand:wght@400;600&family=Source+Sans+3:wght@200;300;400&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,9 +14,26 @@
     <title>Accomodation</title>
 </head>
 
-<body>
+<body style="background:#323D64;">
 <section>
-
+    <div class="navbar text-light">
+        <ul class="navbar_brand">
+            <h1>Shadows</h1>
+        </ul>
+        <ul class="navbar_menu">
+            <a class="accomodation" href="index.html"><h5>Bosh sahifa</h5></a>
+            <a class="accomodation" href="Accomodation.html"><h5>Xonadonlar</h5></a>
+            <h5>Saytga qo'shilish</h5>
+            <h5>Aloqa</h5>
+            <ul class="text-xl-end text-lg-center text-md-center text-sm-center text-center navbar-sign-in">
+                <p>Foydalanuvchilar soni: 1500+</p>
+                <button class="btn text-dark login_btn">ㅤKirish <i class="fas fa-sign-in-alt"></i>ㅤ</button>
+            </ul>
+        </ul>
+        <h2 class="bar"><img src="https://img.icons8.com/doodle/48/000000/menu.png"/></h2>
+    </div>
+</section>
+<div class="accomodation_body">
     <div class="container d-flex">
         <div class="row">
             <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -142,34 +160,41 @@
             </div>
         </div>
     </div>
-
-    <div class="footer mt-5">
-        <div class="row d-flex justify-content-around">
-            <div class="col-3 footer-menu ms-5 mt-3">
+</div>
+<section>
+    <div class="footer w-100">
+        <div class="row d-flex justify-content-around h-100 w-100">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 footer-menu ms-2 mt-4">
                 <h1>Shadows.uz</h1>
-                <p>• Bosh sahifa</p>
-                <p>• Xonadonlar</p>
-                <p>• Saytga qo'shilish</p>
-                <p>• Aloqa</p>
+                <ul class="w-100 h-75 mt-4">
+                    <p>• Bosh sahifa</p>
+                    <p>• Xonadonlar</p>
+                    <p>• Saytga qo'shilish</p>
+                    <p>• Aloqa</p>
+                </ul>
             </div>
-            <div class="col-3 footer-menu ms-5 mt-3">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 footer-menu ms-2 mt-4">
                 <h1>Aloqa uchun</h1>
-                <p class="phone"><i class="fal fa-phone-alt me-1"></i> +998(99)999 99 99</p>
-                <p class="phone"><i class="fal fa-phone-alt me-1"></i> +998(99)999 99 99</p>
-                <p class="message"><i class="fal fa-envelope me-1"></i> +998(99)999 99 99</p>
-                <p class="location"><i class="fal fa-map-marker-alt me-1"></i> Qarshi shahri,Mustaqillik ko'cha</p>
+                <ul class="w-100 d-flex flex-wrap h-75 mt-4">
+                    <p class="phone col-6"><i class="fal fa-phone-alt me-1"></i> +998(99)999 99 99</p>
+                    <p class="phone col-6"><i class="fal fa-phone-alt me-1"></i> +998(99)999 99 99</p>
+                    <p class="message col-6"><i class="fal fa-envelope me-1"></i> +998(99)999 99 99</p>
+                    <p class="location_g col-6"><i class="fal fa-map-marker-alt me-1"></i> Qarshi shahri,Mustaqillik ko'cha</p>
+                </ul>
             </div>
-            <div class="col-3 footer-menu ms-5 mt-3">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 footer-menu ms-2 mt-4">
                 <h1>Ijtimoiy tarmoqlar</h1>
-                <p class="telegram"><i class="fab fa-telegram me-1"></i> @shadows</p>
-                <p class="insta"><i class="fab fa-instagram me-1"></i> @shadows</p>
-                <p class="fasebook"><i class="fab fa-facebook me-1"></i> @shadows</p>
+                <div class="social_media w-100 h-50 d-flex flex-xl-column flex-lg-column flex-md-row flex-sm-row flex-row justify-content-around mt-3">
+                    <h4 class="telegram"><i class="fab fa-telegram me-1"></i> shadows</h4>
+                    <h4 class="insta"><i class="fab fa-instagram me-1"></i> shadows</h4>
+                    <h4 class="fasebook"><i class="fab fa-facebook me-1"></i> shadows</h4>
+                </div>
             </div>
         </div>
     </div>
 </section>
 </body>
-<script src="./Accomodation.js"></script>
+<script src="./Acco.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>

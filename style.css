@@ -54,7 +54,7 @@
     position: fixed;
     margin: 20px 40px;
     z-index: 9999999;
-    transform: translateY(-105%);
+    transform: translateY(-115%);
 }
 .model_hide{
     transform: translateX(0%);
@@ -241,7 +241,6 @@ background: #232F3D;
     margin-top: 5rem;
 }
 .footer{
-    width: 99.1%;
     height: 270px;
     background: #222933;
     color: #fff;
@@ -317,12 +316,13 @@ background: #232F3D;
          justify-content: space-around;
          align-items: center;
          background: rgba(25, 30, 50, 0.93);
+         backdrop-filter: blur(3px);
          position: fixed;
          top: 6.7rem;
-         transform: translateX(-100%);
+         transform: translateY(-115%);
      }
      .hide{
-         transform: translateX(0%);
+         transform: translateY(0%);
      }
      .bar{
          display: block;
@@ -330,7 +330,8 @@ background: #232F3D;
          cursor:pointer;
      }
      .navbar-sign-in{
-         margin-top: -30px;
+         position: relative;
+         top: -2rem;
          margin-left: -2rem;
      }
      .navbar-sign-in button{
@@ -340,6 +341,11 @@ background: #232F3D;
      }
      .location{
          margin-top: 8rem;
+     }
+     .footer{
+         height: 270px;
+         background: #222933;
+         color: #fff;
      }
 }
 
@@ -395,6 +401,11 @@ background: #232F3D;
         height: 95vh;
         margin: 40px 25px;
     }
+    .footer{
+        height: 100vh;
+        background: #222933;
+        color: #fff;
+    }
 }
 @media only screen and (max-width: 768px){
     .carusel_icon_location{
@@ -447,6 +458,11 @@ background: #232F3D;
     }
     .call_modal_btn{
         margin: 4px 25px;
+    }
+    .footer{
+        height: 100vh;
+        background: #222933;
+        color: #fff;
     }
 }
 
@@ -506,5 +522,10 @@ background: #232F3D;
     }
     .call_modal_btn{
         margin: 4px 25px;
+    }
+    .footer{
+        height: 100vh;
+        background: #222933;
+        color: #fff;
     }
 };
