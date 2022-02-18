@@ -25,6 +25,9 @@
     height: 100%;
     margin-right: 8rem;
 }
+.loader_title{
+    font-size: 40px;
+}
 .loader_img_wrapper{
     height: 100%;
     width: 70%;
@@ -261,7 +264,10 @@ background: #232F3D;
     text-decoration: none;
     color: #fff;
 }
-
+.accomodation:hover{
+    text-decoration: none;
+    color: white;
+}
  @media only screen and (max-width:1024px) {
     .carusel_icon_location{
         margin-bottom: 9rem;
@@ -288,6 +294,9 @@ background: #232F3D;
      .loader{
          margin: 25px 0 0 25px;
      }
+     .loader_title{
+         font-size: 33px;
+     }
      .home_card{
          position: relative;
          top: 4rem;
@@ -310,7 +319,7 @@ background: #232F3D;
      }
      .model{
          width: 95%;
-         height: 95vh;
+         height: 95%;
          margin: 30px 30px;
      }
      .navbar{
@@ -393,6 +402,9 @@ background: #232F3D;
         height: 87%;
         margin-right: 0;
     }
+    .loader_title{
+        font-size: 28px;
+    }
     .loader_img_wrapper{
         height: 87%;
         width: 50%;
@@ -406,7 +418,7 @@ background: #232F3D;
     }
     .model{
         width: 95%;
-        height: 95vh;
+        height: 95%;
         margin: 40px 25px;
     }
     .footer{
@@ -439,9 +451,12 @@ background: #232F3D;
     .loader{
         margin: 25px 0 0 10px;
     }
+    .loader_title{
+        font-size: 28px;
+    }
     .model{
         width: 95%;
-        height: 95vh;
+        height: 95%;
         margin: 40px 20px;
     }
     .call{
@@ -454,7 +469,7 @@ background: #232F3D;
     .call_m{
         width: 85%;
         height: 370px;
-        margin: 12rem auto;
+        margin: 6rem auto;
         z-index: 99999;
     }
     .call_modal_input{
@@ -485,8 +500,8 @@ background: #232F3D;
         margin-right: 0;
     }
     .loader_img_wrapper{
-        height: 60%;
-        width: 80%;
+        height: 50%;
+        width: 60%;
     }
     .loader_img{
         width:100%;
@@ -501,7 +516,7 @@ background: #232F3D;
     }
     .model{
         width: 95%;
-        height: 95vh;
+        height: 95%;
         margin: 20px 8px;
     }
     .call{
@@ -514,10 +529,12 @@ background: #232F3D;
         font-size: 12px;
     }
     .call_m{
-        width: 85%;
-        height: 420px;
-        margin: 12rem auto;
+        width: 90%;
+        height: 450px;
+        margin: 5rem auto;
         z-index: 99999;
+        box-sizing: border-box;
+        padding: 5px;
     }
     .call_modal_input{
         width: 90%;

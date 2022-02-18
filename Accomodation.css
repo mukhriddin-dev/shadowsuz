@@ -13,6 +13,12 @@
     position: fixed;
     z-index: 8888888;
 }
+.navbar_wrapper{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    margin: 0px auto;
+}
 .navbar_brand{
     width: 25%;
     height: 100%;
@@ -25,7 +31,7 @@
     font-weight: 900;
 }
 .navbar_menu{
-    width: 65%;
+    width: 75%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -54,6 +60,10 @@
 .accomodation{
     text-decoration: none;
     color: #fff;
+}
+.accomodation:hover{
+    text-decoration: none;
+    color: white;
 }
 /* Position the image container (needed to position the left and right arrows) */
 .container {
