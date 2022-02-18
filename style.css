@@ -47,14 +47,21 @@
     color: antiquewhite;
     cursor:pointer;
 }
+.three-d{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.86);
+    position: fixed;
+    z-index: 9999990;
+    transform: translateY(-120%);
+}
 .model{
     width: 95%;
-    height: 95vh;
+    height: 95%;
     background: #111d55;
     position: fixed;
-    margin: 20px 40px;
+    margin: 20px 2.4rem;
     z-index: 9999999;
-    transform: translateY(-115%);
 }
 .model_hide{
     transform: translateX(0%);
@@ -63,13 +70,13 @@
     color: white;
     cursor: pointer;
 }
-.registration{
+.modal{
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.86);
     position: fixed;
     z-index: 9999990;
-    transform: translateY(-100%);
+    transform: translateY(-105%);
     display: block;
 }
 .registration_hide{
@@ -186,13 +193,18 @@ margin-bottom: 15rem;
     background: antiquewhite;
 }
 .call_modal{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.86);
+    position: fixed;
+    z-index: 9999990;
+    transform: translateY(-300%);
+}
+.call_m{
     width: 45%;
     height: 240px;
-    position: absolute;
-    top: 20rem;
-    left: 27rem;
+    margin: 12rem auto;
     z-index: 999;
-    transform: translateX(-400%);
 }
 .call_modal_btn{
 background: #323D64;
@@ -263,12 +275,10 @@ background: #232F3D;
          position: relative;
          top: 1rem;
      }
-     .call_modal{
+     .call_m{
          width: 60%;
          height: 240px;
-         position: absolute;
-         top: 13rem;
-         left: 14rem;
+         margin: 12rem auto;
          z-index: 9999;
      }
      .call_modal_input{
@@ -364,12 +374,10 @@ background: #232F3D;
         position: relative;
         top: 2rem;
     }
-    .call_modal{
+    .call_m{
         width: 70%;
         height: 260px;
-        position: absolute;
-        top: 13rem;
-        left: 9rem;
+        margin: 12rem auto;
         z-index: 999999999;
     }
     .call_modal_input{
@@ -443,12 +451,10 @@ background: #232F3D;
         top: 4rem;
         left: 1rem;
     }
-    .call_modal{
+    .call_m{
         width: 85%;
         height: 370px;
-        position: absolute;
-        top: 8rem;
-        left: 4rem;
+        margin: 12rem auto;
         z-index: 99999;
     }
     .call_modal_input{
@@ -507,12 +513,10 @@ background: #232F3D;
     .call i{
         font-size: 12px;
     }
-    .call_modal{
+    .call_m{
         width: 85%;
         height: 420px;
-        position: absolute;
-        top: 8rem;
-        left: 2rem;
+        margin: 12rem auto;
         z-index: 99999;
     }
     .call_modal_input{
